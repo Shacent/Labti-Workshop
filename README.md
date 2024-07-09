@@ -3,6 +3,25 @@
 Shacent mengalami kesulitan dalam memprediksi harga rumah di tiga daerah utama Jabodetabek: Jakarta, Depok, dan Tangerang. Untuk membantu Shacent, kami akan membuat aplikasi yang mampu memprediksi harga rumah berdasarkan beberapa fitur input seperti lokasi, luas tanah, luas bangunan, banyaknya ruangan, dan banyaknya lantai.
 Proyek ini bertujuan untuk memprediksi harga rumah di tiga wilayah utama Jabodetabek: Jakarta, Depok, dan Tangerang. Model prediksi dibuat menggunakan Regresi Linear dan diimplementasikan ke dalam API menggunakan Flask.
 
+## Tujuan
+Membuat model Linear Regression yang dapat memprediksi harga rumah dengan akurasi tinggi berdasarkan dataset, dengan fokus pada fitur-fitur yang relevan.
+
+## Langkah-Langkah
+1. **Persiapan Data**
+   - Mengimpor pustaka yang diperlukan
+   - Mengimpor datasets
+   - Melakukan pembersihan data termasuk penanganan outlier, data kosong, dan duplikat
+
+2. **Eksplorasi Data**
+   - Menggunakan teknik visualisasi untuk memahami distribusi data
+   - Menampilkan statistik deskriptif dari dataset
+
+3. **Membangun Model**
+   - Memisahkan dataset menjadi fitur dan target
+   - Membagi data menjadi set latih dan uji
+   - Melatih model Linear Regression
+   - Mengevaluasi model menggunakan metrik seperti R-Squared (R²)
+
 ## Dataset
 
 Dataset ini terdiri dari beberapa fitur berikut:
